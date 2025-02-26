@@ -1,0 +1,4 @@
+<div class="demo">
+  <view class="btn" bindtap="setVisible">弹出日历：{{modelValue||''}}</view>
+  <m-simple-calendar value="{{modelValue}}" visible="{{visible}}" bindupdate:visible="onUpdateVisible" bindupdate:value="onUpdateValue" style="position:absolute;left:10rpx;top:130rpx;" />
+</div>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "m-simple-calendar": "/components/m-simple-calendar/index"
+  }
+}
