@@ -10,7 +10,8 @@
   "scripts": {
     "start": "npm run dev:web",
     "dev:web": "vite dev -c ./demo/vue/vite.config.js",
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "tag": "node scripts/tag.js"
   },
   "sideEffects": false,
   "type": "module",
