@@ -121,11 +121,13 @@ export default {
 npm i m-simple-calendar
 ```
 
+- `打开微信开发者工具` -> `工具` -> `构建 npm`
+
 ```json
 // demo.json
 {
   "usingComponents": {
-    "m-simple-calendar": "m-simple-calendar/miniprogram"
+    "m-simple-calendar": "m-simple-calendar/m-simple-calendar/index"
   }
 }
 ```

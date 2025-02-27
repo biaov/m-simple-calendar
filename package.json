@@ -1,6 +1,6 @@
 {
   "name": "m-simple-calendar",
-  "version": "0.0.1-beat.0",
+  "version": "0.0.1-beat.1",
   "description": "多平台简单的日历",
   "author": {
     "name": "biaov",
@@ -31,12 +31,12 @@
   ],
   "license": "ISC",
   "private": false,
-  "miniprogram": "miniprogram",
+  "miniprogram": "dist/miniprogram",
   "exports": {
-    ".": "./vue/index.js",
-    "./vue": "./vue/index.js",
-    "./vue2": "./vue/m-simple-calendar-v2/index.js",
-    "./miniprogram": "./miniprogram/m-simple-calendar/index"
+    ".": "./dist/vue/index.js",
+    "./vue": "./dist/vue/index.js",
+    "./vue2": "./dist/vue/m-simple-calendar-v2/index.js",
+    "./miniprogram": "./dist/miniprogram/m-simple-calendar"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
@@ -47,6 +47,6 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "engine-strict": true,
-    "provenance": false
+    "provenance": true
   }
 }
