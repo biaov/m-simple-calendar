@@ -139,4 +139,4 @@ npm i m-simple-calendar
 
 ## 贡献者们
 
-[![贡献者们](https://contrib.rocks/image?repo=biaov/m-simple-calendar](https://github.com/biaov/m-simple-calendar/graphs/contributors)
+[![贡献者们](https://contrib.rocks/image?repo=biaov/m-simple-calendar)](https://github.com/biaov/m-simple-calendar/graphs/contributors)
