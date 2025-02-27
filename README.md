@@ -41,6 +41,8 @@
 npm i m-simple-calendar
 ```
 
+##### Vue3.x
+
 - 全局引用
 
 ```js
@@ -59,7 +61,36 @@ createApp(App).use(MSimpleCalendar).mount('#app')
   <m-simple-calendar visible />
 </template>
 <script setup>
-import MSimpleCalendar from 'm-simple-calendar'
+import { MSimpleCalendar } from 'm-simple-calendar'
+</script>
+```
+
+##### Vue2.x
+
+- 全局引用
+
+```js
+// main.js
+import Vue from 'vue'
+import MSimpleCalendar from 'm-simple-calendar/vue2'
+
+Vue.use(MSimpleCalendar)
+```
+
+- 按需引入
+
+```vue
+<template>
+  <m-simple-calendar visible />
+</template>
+<script>
+import MSimpleCalendar from 'm-simple-calendar/vue2'
+
+export default {
+  components: {
+    MSimpleCalendar
+  }
+}
 </script>
 ```
 

@@ -1,5 +1,5 @@
 import MSimpleCalendar from './m-simple-calendar'
-export * as MSimpleCalendar from './m-simple-calendar'
+export { default as MSimpleCalendar } from './m-simple-calendar'
 
 export default {
   install(app) {

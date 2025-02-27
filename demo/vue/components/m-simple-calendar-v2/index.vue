@@ -85,7 +85,7 @@ export default {
       type: Boolean,
       default: false
     },
-    style: {
+    customStyle: {
       type: [String, Object]
     }
   },
@@ -105,7 +105,7 @@ export default {
   },
   computed: {
     getStyle() {
-      const style = this.style || {}
+      const style = this.customStyle || {}
       let option = {}
       if (typeof style === 'string') {
         style.split(';').map(item => {

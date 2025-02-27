@@ -4,3 +4,4 @@ package-lock.json
 vite.config.js
 scripts
 .vscode
+.github

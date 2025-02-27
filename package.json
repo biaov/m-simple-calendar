@@ -1,6 +1,6 @@
 {
   "name": "m-simple-calendar",
-  "version": "0.0.0",
+  "version": "0.0.1-beat.0",
   "description": "多平台简单的日历",
   "author": {
     "name": "biaov",
@@ -31,6 +31,7 @@
   ],
   "license": "ISC",
   "private": false,
+  "miniprogram": "miniprogram",
   "exports": {
     ".": "./vue/index.js",
     "./vue": "./vue/index.js",
@@ -46,6 +47,6 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "engine-strict": true,
-    "provenance": true
+    "provenance": false
   }
 }
