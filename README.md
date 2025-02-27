@@ -32,7 +32,7 @@
 #### 代码集成
 
 - 复制 `/vue/m-simple-calendar` 文件夹到你的 components 里去
-- 如何是 Vue2 复制 `/vue/m-simple-calendar` 文件夹
+- 如果是 Vue2 复制 `/vue/m-simple-calendar-v2` 文件夹
 - 使用: 按照正常组件使用即可
 
 #### NPM 集成
@@ -41,7 +41,10 @@
 npm i m-simple-calendar
 ```
 
+- 全局引用
+
 ```js
+// main.js
 import { createApp } from 'vue'
 import App from './App.vue'
 import MSimpleCalendar from 'm-simple-calendar'
@@ -49,12 +52,37 @@ import MSimpleCalendar from 'm-simple-calendar'
 createApp(App).use(MSimpleCalendar).mount('#app')
 ```
 
+- 按需引用
+
+```vue
+<template>
+  <m-simple-calendar visible />
+</template>
+<script setup>
+import MSimpleCalendar from 'm-simple-calendar'
+</script>
+```
+
 ### 微信小程序
 
 #### 代码集成
 
-- 复制 `/vue/m-simple-calendar` 文件夹到你的 components 里去
+- 复制 `/miniprogram/m-simple-calendar` 文件夹到你的 components 里去
+- 使用:
 
+```json
+// demo.json
+{
+  "usingComponents": {
+    "m-simple-calendar": "/components/m-simple-calendar/index"
+  }
+}
+```
+
+```html
+<!-- demo.wxml -->
+<m-simple-calendar visible />
+```
 
 #### NPM 集成
 
@@ -63,7 +91,17 @@ npm i m-simple-calendar
 ```
 
 ```json
+// demo.json
+{
+  "usingComponents": {
+    "m-simple-calendar": "m-simple-calendar/miniprogram"
+  }
+}
+```
 
+```html
+<!-- demo.wxml -->
+<m-simple-calendar visible />
 ```
 
 ## 贡献者们

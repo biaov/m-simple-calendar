@@ -32,10 +32,10 @@
   "license": "ISC",
   "private": false,
   "exports": {
-    ".": "./vue/m-simple-calendar/index.js",
-    "./vue": "./vue/m-simple-calendar/index.js",
-    "./miniprogram": "./miniprogram/m-simple-calendar/index",
-    "./vue2": "./vue/m-simple-calendar-v2/index.js"
+    ".": "./vue/index.js",
+    "./vue": "./vue/index.js",
+    "./vue2": "./vue/m-simple-calendar-v2/index.js",
+    "./miniprogram": "./miniprogram/m-simple-calendar/index"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
