@@ -127,7 +127,7 @@ Component({
       /**
        * 当月开始星期
        */
-      const startW = new Date(y, m, 1).getDay()
+      const startW = new Date(`${y}-${m}-1`).getDay()
       let nm = m - 1
       let ny = y
       if (nm === 0) {
