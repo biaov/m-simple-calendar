@@ -101,7 +101,7 @@ export default {
 - 复制 `/miniprogram/m-simple-calendar` 文件夹到你的 components 里去
 - 使用:
 
-```json
+```jsonc
 // demo.json
 {
   "usingComponents": {
@@ -123,7 +123,7 @@ npm i m-simple-calendar
 
 - `打开微信开发者工具` -> `工具` -> `构建 npm`
 
-```json
+```jsonc
 // demo.json
 {
   "usingComponents": {
